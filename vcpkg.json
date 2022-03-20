@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "skyspec-runner",
+    "version-string": "0.0.1",
+    "description": "Command-line runner for SkySpec tests",
+    "homepage": "https://github.com/mrowrpurr/SkySpecRunner",
+    "license": "MIT",
+    "supports": "windows & x64",
+    "dependencies": [
+        { "name": "vcpkg-cmake-config", "host": true },
+        "websocketpp"
+    ]
+}
